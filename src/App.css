@@ -1,0 +1,143 @@
+.app__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 30px;
+}
+
+.app__logo img {
+  width: 70px;
+}
+
+.app__logo p {
+  font-size: 26px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+}
+
+.coming__soon-cnt {
+  display: flex;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+
+.coming__soon-text {
+  font-size: 14px;
+  color: #9a9fbf;
+  font-weight: 500;
+  padding-bottom: 3px;
+  letter-spacing: -0.025rem;
+}
+
+.coming__soon-title {
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  padding-bottom: 8px;
+  line-height: 56px;
+  margin-bottom: 1rem;
+}
+
+.coming__soon-paragraph {
+  font-size: 16px;
+  letter-spacing: -0.025rem;
+  font-weight: 400;
+  padding-bottom: 12px;
+}
+.coming__soon-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coming__soon-leftchild {
+  max-width: 600px;
+}
+
+.coming__soon-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coming__soon-right img {
+  max-width: 400px;
+  object-fit: contain;
+}
+
+.coming__soon-bethefirst {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9a9fbf;
+  padding-bottom: 8px;
+  letter-spacing: -0.025rem;
+  margin-top: 0.5rem;
+}
+
+.waitlistform {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.waitlistform input {
+  outline: none;
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  height: 50px;
+  font-family: inherit;
+  padding-left: 1rem;
+  border-radius: 6px;
+}
+
+.waitlistform input::placeholder {
+  color: #9a9fbf;
+  font-size: 16px;
+}
+
+.waitlistform button {
+  cursor: pointer;
+  background-color: #4d35a3;
+  border: none;
+  border-radius: 6px;
+  height: 50px;
+  width: 200px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .coming__soon-cnt {
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+
+  .app__logo {
+    padding: 15px;
+  }
+  .coming__soon-cnt {
+    padding: 15px;
+  }
+  .waitlistform {
+    display: grid;
+  }
+
+  .waitlistform button {
+    width: 100%;
+    height: 60px;
+  }
+}
+
