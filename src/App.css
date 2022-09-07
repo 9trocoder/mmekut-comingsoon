@@ -120,6 +120,10 @@
     justify-content: center;
     gap: 8rem;
   }
+
+  .coming__soon-right img {
+    width: 100% !important;
+  }
 }
 
 
