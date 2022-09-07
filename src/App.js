@@ -19,10 +19,9 @@ function App() {
               solution to prioritize tasks, manage time, and meet deadlines.
             </p>
             <p className="coming__soon-paragraph">
-              You can enjoy the benefit below and so much more in one platform.
-              Click the button below to join waitlist and be the first to know
+              Join waitlist and be the first to know
               when Mmekut is launched, how to get Mmekut and take control of
-              your tasks
+              your tasks.
             </p>
 
             <p className="coming__soon-bethefirst">
